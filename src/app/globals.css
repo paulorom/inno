@@ -18,4 +18,17 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.swiper {
+  padding: 0 120px !important;
+}
+
+.swiper {
+  padding: 0 140px !important;
+}
+
+.swiper .swiper-slide{
+  width: 260px;
 }
