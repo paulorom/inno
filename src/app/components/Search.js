@@ -22,7 +22,7 @@ const Search = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className='w-full p-3 rounded bg-gray-700 text-white mb-3'
         />
-        <div className='flex'>
+        <div className='flex justify-between'>
           <input
             type='date'
             onChange={(e) => setBeginDate(e.target.value)}
